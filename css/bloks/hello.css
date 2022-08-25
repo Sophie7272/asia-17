@@ -1,0 +1,43 @@
+/*.hello__container {
+  width: 35%;
+  margin-left: 190px;
+  margin-top: -202px;
+}*/
+
+.hello {
+  margin-bottom: 240px;
+}
+
+.hello__title {
+  max-width: 511px;
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+.hello__subtitle {
+  max-width: 196px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hello__button {
+  background: #F5170E;
+  border-radius: 35px;
+  width: 168px;
+  padding: 18px 39px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+ 
+}
+
+.hello__button:hover {
+  background: #fff;
+  color: #F5170E;
+  transition: .3s;
+}

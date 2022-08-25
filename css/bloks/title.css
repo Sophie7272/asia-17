@@ -1,0 +1,38 @@
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 51px;
+  display: flex;
+ 
+  }
+
+.title--dark {
+  color: #000;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.title--fire {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title--fire::after {
+  content: url("../../img/flame.png");
+  height: 28px;
+  width: 21px;
+  margin-left: 12px;
+}
+
+
+/*services*/
+
+.page-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 120px;
+  margin-top: 97px;
+}
+

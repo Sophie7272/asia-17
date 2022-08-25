@@ -1,0 +1,31 @@
+.header__container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  height: 65px;
+  padding-bottom: 24px;
+  margin-bottom: 135px;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.header__left {
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+
+.header__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  
+} 
+

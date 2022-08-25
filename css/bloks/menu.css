@@ -1,0 +1,28 @@
+.menu {
+  margin-top: 45px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  color: #DA0100;
+  transition: .3s;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}

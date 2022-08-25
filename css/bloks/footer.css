@@ -1,0 +1,34 @@
+.main-footer {
+  margin-top: auto;
+}
+
+.main-footer__container {
+  background: url("../../img/line.png") center top no-repeat;
+  height: 146px;
+}
+
+.inner-footer {
+  margin-top: auto;
+}
+
+.inner-footer__container
+{
+  height: 132px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
+}
